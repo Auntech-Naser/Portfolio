@@ -10,7 +10,23 @@
         <p>Developer, Photographer</p>
         <p>I'll get to this eventually</p>
         <h2>Code</h2>
-        <A HREF="https://github.com/aunteek">Github</A>
+        <a href="https://github.com/aunteek">Github</a>
         <h2>Photography</h2>
+        <h2>Contact</h2>
+        <form id="Contact" action-"#" method="POST" enctype="multipart/form-data">
+            <div class="row">
+                <label for="name">Your name:</label><br/>
+                <input id="name" class="input" name="name" type="text" value="" size="30"/><br/>
+            </div>
+            <div class="row">
+                <label for="email">Your email:</label><br/>
+                <input id="email" class="input" name="name" type="text" value="" size="30"/><br/>
+            </div>
+            <div class="message">
+                <label for="message">Your message:</label><br/>
+                <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br/>
+            </div>
+            <input id="submit_button" type="submit" value="Send email"/>
+        </form>
     </body>
 </html>
